@@ -3,11 +3,13 @@ package com.bytelegend;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import java.util.Random;
+
 public class ChallengeTest {
     @Test
     public void test() {
-        int a = random.nextInt(100);
-        int b = random.nextInt(100);
+        int a = new Random().nextInt(100);
+        int b = new Random().nextInt(100);
         Challenge.a = a;
         Challenge.b = b;
 

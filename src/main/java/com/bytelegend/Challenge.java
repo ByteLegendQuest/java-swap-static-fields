@@ -13,7 +13,7 @@ public class Challenge {
     // Complete this method
     public static void swap() {
         // Test driven develop. >.<
-        this.a = 2;
-        this.b = 1;
+        a = 2;
+        b = 1;
     }
 }

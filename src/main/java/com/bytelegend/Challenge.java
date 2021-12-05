@@ -12,8 +12,9 @@ public class Challenge {
 
     // Complete this method
     public static void swap() {
-        // Test driven develop. >.<
-        a = 2;
-        b = 1;
+        // Well done random number.
+        int c = a;
+        a = b;
+        b = c;
     }
 }

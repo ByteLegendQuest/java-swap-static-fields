@@ -11,10 +11,5 @@ public class Challenge {
     }
 
     // Complete this method
-    public static void swap() {
-        // Well done random number.
-        int c = a;
-        a = b;
-        b = c;
-    }
+    public static void swap() {}
 }

@@ -10,9 +10,6 @@ public class Challenge {
         System.out.println("After swap: a=" + a + ", b=" + b);
     }
 
-    public static void swap() {
-    	int helper = a;
-    	a = b;
-    	b = helper;
-    }
+    // Complete this method
+    public static void swap() {}
 }

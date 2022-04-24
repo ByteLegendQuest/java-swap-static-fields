@@ -11,9 +11,5 @@ public class Challenge {
     }
 
     // Complete this method
-        public static void swap() {
-        int c = a;
-        a=b;
-        b=c;
-    }
+    public static void swap() {}
 }

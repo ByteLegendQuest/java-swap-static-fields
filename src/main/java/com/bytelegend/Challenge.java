@@ -12,7 +12,8 @@ public class Challenge {
 
     // Complete this method
     public static void swap() {
-        this.a = 2;
-        this.b = 1;
+        int c = this.b;
+        this.a = this.b;
+        this.b = c;
     }
 }

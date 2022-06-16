@@ -12,8 +12,8 @@ public class Challenge {
 
     // Complete this method
     public static void swap() {
-        int c = this.a;
-        this.a = this.b;
-        this.b = c;
+        int c = a;
+        a = b;
+        b = c;
     }
 }

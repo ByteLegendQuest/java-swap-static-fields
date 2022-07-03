@@ -3,7 +3,6 @@ package com.bytelegend;
 public class Challenge {
     public static int a = 1;
     public static int b = 2;
-    public static int c = 0;
 
     public static void main(String[] args) {
         System.out.println("Before swap: a=" + a + ", b=" + b);
@@ -12,9 +11,5 @@ public class Challenge {
     }
 
     // Complete this method
-    public static void swap() {
-        c = a;
-        a = b;
-        b = c;
-    }
+    public static void swap() {}
 }

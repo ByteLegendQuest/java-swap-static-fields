@@ -11,10 +11,5 @@ public class Challenge {
     }
 
     // Complete this method
-    public static void swap() {
-        int temp;
-        temp=Challenge.a;
-        Challenge.a=Challenge.b;
-        Challenge.b=temp;
-    }
+    public static void swap() {}
 }

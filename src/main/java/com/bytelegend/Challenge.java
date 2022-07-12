@@ -1,4 +1,4 @@
-package com.bytelegend;
+7package com.bytelegend;
 
 public class Challenge {
     public static int a = 1;
@@ -11,5 +11,9 @@ public class Challenge {
     }
 
     // Complete this method
-    public static void swap() {}
+    public static void swap() {
+        int temp = a;
+        a = b;
+        b = temp;
+    }
 }

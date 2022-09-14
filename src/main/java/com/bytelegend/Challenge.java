@@ -6,13 +6,14 @@ public class Challenge {
 
         public static void main(String[] args) {
             System.out.println("Before swap: a=" + a + ", b=" + b);
-            swap(a,b);
+            swap();
             System.out.println("After swap: a=" + a + ", b=" + b);
         }
 
         // Complete this method
-        public static void swap(int num1,int num2) {
-            a = num2;
-            b = num1;
+        public static void swap() {
+            int temp = a;
+            a = b;
+            b = temp;
         }
     }

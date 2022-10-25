@@ -12,7 +12,7 @@ public class Challenge {
 
     // Complete this method
     public static void swap() {
-        a=2;
-        b=1;
+        Challenge.a=2;
+        Challenge.b=1;
     }
 }

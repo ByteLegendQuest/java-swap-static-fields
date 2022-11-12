@@ -13,7 +13,7 @@ public class Challenge {
     // Complete this method
     public static void swap() {
         int t = a;
-        int a = b;
-        int b = t;
+        a = b;
+        b = t;
     }
 }

@@ -14,6 +14,6 @@ public class Challenge {
     public static void swap() {
         int temp = Challenge.a;
         Challenge.a = b;
-        Challenge.b = a;
+        Challenge.b = temp;
     }
 }

@@ -15,6 +15,6 @@ public class Challenge {
         int c;
         c = a;
         a = b;
-        b = a;
+        b = c;
     }
 }

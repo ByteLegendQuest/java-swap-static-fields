@@ -1,5 +1,6 @@
 package com.bytelegend;
 
+
 public class Challenge {
     public static int a = 1;
     public static int b = 2;
@@ -14,7 +15,8 @@ public class Challenge {
     public static void swap() {
         int temp = 0;
         temp = a;
-        b = temo;
         a = b;
+        b = temp;
     }
 }
+
